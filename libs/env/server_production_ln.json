@@ -1,0 +1,16 @@
+{
+    "testmode": false,
+    "localhost": true,
+    "url": "http://localhost:83",
+    "db": "bitcoin",
+    "contract": {
+        "address": "0x0",
+        "etherAPI": "https://api-ropsten.etherscan.io/api",
+        "owner": {
+            "address": "0x5aeda56215b167893e80b4fe645ba6d5bab767de",
+            "pKey": "0x8d5366123cb560bb606379f90a0bfd4769eecc0557f1b362dcae9012b548b1e5"
+        }
+    },
+    "unit": "Bits",
+    "stakeValues": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048]
+}

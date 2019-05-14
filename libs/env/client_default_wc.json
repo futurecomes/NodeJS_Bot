@@ -1,0 +1,22 @@
+{
+    "testmode": false,
+    "contract": {
+        "address": "0x0"
+    },
+    "network": 1,
+    "url": "http://localhost:85",
+    "stakeValues": [0.000001, 0.000005, 0.00001, 0.00002, 0.0001, 0.0005, 0.001, 0.005, 0.01,0.05,0.1,1],
+    "appConfigs": {
+        "appName": "Waykiman",
+        "appDomain": "waykiman.app",
+        "unit": "WICC",
+        "unitFull": "Wicc",
+        "networkName": "Waykichain",
+        "affExp": "0x3234cafe33234342343423...",
+        "affExpShort": "0x3234cafe33"
+    },
+    "chatConfig": {
+      "publishKey":"pub-c-93f1df22-45b8-4789-871d-58d568a711bd",
+      "subscribeKey":"sub-c-6d988492-4012-11e9-9010-ca52b265d058"
+    }
+}

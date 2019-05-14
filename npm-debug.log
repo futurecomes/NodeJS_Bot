@@ -1,0 +1,341 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json bot@1.0.0 No description
+5 warn package.json bot@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/success/bot',
+7 verbose install   [ 'ethereumjs-abi',
+7 verbose install     'ethereumjs-util',
+7 verbose install     'request',
+7 verbose install     'socket.io',
+7 verbose install     'tronweb',
+7 verbose install     'web3',
+7 verbose install     'web3-utils' ] ]
+8 info preinstall bot@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'ethereumjs-abi@^0.6.6', null ]
+11 verbose cache add name=undefined spec="ethereumjs-abi@^0.6.6" args=["ethereumjs-abi@^0.6.6",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'ethereumjs-abi@^0.6.6',
+12 verbose parsed url   path: 'ethereumjs-abi@^0.6.6',
+12 verbose parsed url   href: 'ethereumjs-abi@^0.6.6' }
+13 verbose cache add name="ethereumjs-abi" spec="^0.6.6" args=["ethereumjs-abi","^0.6.6"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '^0.6.6',
+14 verbose parsed url   path: '^0.6.6',
+14 verbose parsed url   href: '^0.6.6' }
+15 verbose addNamed [ 'ethereumjs-abi', '^0.6.6' ]
+16 verbose addNamed [ null, '>=0.6.6-0 <0.7.0-0' ]
+17 verbose cache add [ 'ethereumjs-util@^6.0.0', null ]
+18 verbose cache add name=undefined spec="ethereumjs-util@^6.0.0" args=["ethereumjs-util@^6.0.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'ethereumjs-util@^6.0.0',
+19 verbose parsed url   path: 'ethereumjs-util@^6.0.0',
+19 verbose parsed url   href: 'ethereumjs-util@^6.0.0' }
+20 verbose cache add name="ethereumjs-util" spec="^6.0.0" args=["ethereumjs-util","^6.0.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^6.0.0',
+21 verbose parsed url   path: '^6.0.0',
+21 verbose parsed url   href: '^6.0.0' }
+22 verbose addNamed [ 'ethereumjs-util', '^6.0.0' ]
+23 verbose addNamed [ null, '>=6.0.0-0 <7.0.0-0' ]
+24 verbose cache add [ 'socket.io@^2.2.0', null ]
+25 verbose cache add name=undefined spec="socket.io@^2.2.0" args=["socket.io@^2.2.0",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'socket.io@^2.2.0',
+26 verbose parsed url   path: 'socket.io@^2.2.0',
+26 verbose parsed url   href: 'socket.io@^2.2.0' }
+27 verbose cache add name="socket.io" spec="^2.2.0" args=["socket.io","^2.2.0"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '^2.2.0',
+28 verbose parsed url   path: '^2.2.0',
+28 verbose parsed url   href: '^2.2.0' }
+29 verbose addNamed [ 'socket.io', '^2.2.0' ]
+30 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+31 silly lockFile 3f816b16-socket-io-2-2-0 socket.io@^2.2.0
+32 verbose lock socket.io@^2.2.0 /home/success/.npm/3f816b16-socket-io-2-2-0.lock
+33 verbose cache add [ 'request@^2.88.0', null ]
+34 verbose cache add name=undefined spec="request@^2.88.0" args=["request@^2.88.0",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'request@^2.88.0',
+35 verbose parsed url   path: 'request@^2.88.0',
+35 verbose parsed url   href: 'request@^2.88.0' }
+36 verbose cache add name="request" spec="^2.88.0" args=["request","^2.88.0"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '^2.88.0',
+37 verbose parsed url   path: '^2.88.0',
+37 verbose parsed url   href: '^2.88.0' }
+38 verbose addNamed [ 'request', '^2.88.0' ]
+39 verbose addNamed [ null, '>=2.88.0-0 <3.0.0-0' ]
+40 silly lockFile f9a4fdd4-request-2-88-0 request@^2.88.0
+41 verbose lock request@^2.88.0 /home/success/.npm/f9a4fdd4-request-2-88-0.lock
+42 verbose cache add [ 'tronweb@^2.1.31', null ]
+43 verbose cache add name=undefined spec="tronweb@^2.1.31" args=["tronweb@^2.1.31",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'tronweb@^2.1.31',
+44 verbose parsed url   path: 'tronweb@^2.1.31',
+44 verbose parsed url   href: 'tronweb@^2.1.31' }
+45 verbose cache add name="tronweb" spec="^2.1.31" args=["tronweb","^2.1.31"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '^2.1.31',
+46 verbose parsed url   path: '^2.1.31',
+46 verbose parsed url   href: '^2.1.31' }
+47 verbose addNamed [ 'tronweb', '^2.1.31' ]
+48 verbose addNamed [ null, '>=2.1.31-0 <3.0.0-0' ]
+49 silly lockFile 06de3f06-tronweb-2-1-31 tronweb@^2.1.31
+50 verbose lock tronweb@^2.1.31 /home/success/.npm/06de3f06-tronweb-2-1-31.lock
+51 verbose cache add [ 'web3@^1.0.0-beta.48', null ]
+52 verbose cache add name=undefined spec="web3@^1.0.0-beta.48" args=["web3@^1.0.0-beta.48",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'web3@^1.0.0-beta.48',
+53 verbose parsed url   path: 'web3@^1.0.0-beta.48',
+53 verbose parsed url   href: 'web3@^1.0.0-beta.48' }
+54 verbose cache add name="web3" spec="^1.0.0-beta.48" args=["web3","^1.0.0-beta.48"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '^1.0.0-beta.48',
+55 verbose parsed url   path: '^1.0.0-beta.48',
+55 verbose parsed url   href: '^1.0.0-beta.48' }
+56 verbose addNamed [ 'web3', '^1.0.0-beta.48' ]
+57 verbose addNamed [ null, '>=1.0.0-beta.48 <2.0.0-0' ]
+58 silly lockFile cb477a66-web3-1-0-0-beta-48 web3@^1.0.0-beta.48
+59 verbose lock web3@^1.0.0-beta.48 /home/success/.npm/cb477a66-web3-1-0-0-beta-48.lock
+60 verbose cache add [ 'web3-utils@^1.0.0-beta.46', null ]
+61 verbose cache add name=undefined spec="web3-utils@^1.0.0-beta.46" args=["web3-utils@^1.0.0-beta.46",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'web3-utils@^1.0.0-beta.46',
+62 verbose parsed url   path: 'web3-utils@^1.0.0-beta.46',
+62 verbose parsed url   href: 'web3-utils@^1.0.0-beta.46' }
+63 verbose cache add name="web3-utils" spec="^1.0.0-beta.46" args=["web3-utils","^1.0.0-beta.46"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '^1.0.0-beta.46',
+64 verbose parsed url   path: '^1.0.0-beta.46',
+64 verbose parsed url   href: '^1.0.0-beta.46' }
+65 verbose addNamed [ 'web3-utils', '^1.0.0-beta.46' ]
+66 verbose addNamed [ null, '>=1.0.0-beta.46 <2.0.0-0' ]
+67 silly lockFile bcaa825b-web3-utils-1-0-0-beta-46 web3-utils@^1.0.0-beta.46
+68 verbose lock web3-utils@^1.0.0-beta.46 /home/success/.npm/bcaa825b-web3-utils-1-0-0-beta-46.lock
+69 silly lockFile 7b8ab5ce-ethereumjs-util-6-0-0 ethereumjs-util@^6.0.0
+70 verbose lock ethereumjs-util@^6.0.0 /home/success/.npm/7b8ab5ce-ethereumjs-util-6-0-0.lock
+71 silly addNameRange { name: 'socket.io',
+71 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+71 silly addNameRange   hasData: false }
+72 silly addNameRange { name: 'request', range: '>=2.88.0-0 <3.0.0-0', hasData: false }
+73 silly addNameRange { name: 'tronweb', range: '>=2.1.31-0 <3.0.0-0', hasData: false }
+74 silly addNameRange { name: 'web3',
+74 silly addNameRange   range: '>=1.0.0-beta.48 <2.0.0-0',
+74 silly addNameRange   hasData: false }
+75 verbose url raw socket.io
+76 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+77 verbose url resolved https://registry.npmjs.org/socket.io
+78 info trying registry request attempt 1 at 16:03:48
+79 http GET https://registry.npmjs.org/socket.io
+80 verbose url raw request
+81 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+82 verbose url resolved https://registry.npmjs.org/request
+83 info trying registry request attempt 1 at 16:03:48
+84 http GET https://registry.npmjs.org/request
+85 verbose url raw tronweb
+86 verbose url resolving [ 'https://registry.npmjs.org/', './tronweb' ]
+87 verbose url resolved https://registry.npmjs.org/tronweb
+88 info trying registry request attempt 1 at 16:03:48
+89 http GET https://registry.npmjs.org/tronweb
+90 silly addNameRange { name: 'web3-utils',
+90 silly addNameRange   range: '>=1.0.0-beta.46 <2.0.0-0',
+90 silly addNameRange   hasData: false }
+91 verbose url raw web3
+92 verbose url resolving [ 'https://registry.npmjs.org/', './web3' ]
+93 verbose url resolved https://registry.npmjs.org/web3
+94 info trying registry request attempt 1 at 16:03:48
+95 http GET https://registry.npmjs.org/web3
+96 silly addNameRange { name: 'ethereumjs-util',
+96 silly addNameRange   range: '>=6.0.0-0 <7.0.0-0',
+96 silly addNameRange   hasData: false }
+97 verbose url raw web3-utils
+98 verbose url resolving [ 'https://registry.npmjs.org/', './web3-utils' ]
+99 verbose url resolved https://registry.npmjs.org/web3-utils
+100 info trying registry request attempt 1 at 16:03:48
+101 http GET https://registry.npmjs.org/web3-utils
+102 silly lockFile 9591d3bd-ethereumjs-abi-0-6-6 ethereumjs-abi@^0.6.6
+103 verbose lock ethereumjs-abi@^0.6.6 /home/success/.npm/9591d3bd-ethereumjs-abi-0-6-6.lock
+104 verbose url raw ethereumjs-util
+105 verbose url resolving [ 'https://registry.npmjs.org/', './ethereumjs-util' ]
+106 verbose url resolved https://registry.npmjs.org/ethereumjs-util
+107 info trying registry request attempt 1 at 16:03:48
+108 http GET https://registry.npmjs.org/ethereumjs-util
+109 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+110 silly addNameRange { name: 'ethereumjs-abi',
+110 silly addNameRange   range: '>=0.6.6-0 <0.7.0-0',
+110 silly addNameRange   hasData: false }
+111 verbose url raw ethereumjs-abi
+112 verbose url resolving [ 'https://registry.npmjs.org/', './ethereumjs-abi' ]
+113 verbose url resolved https://registry.npmjs.org/ethereumjs-abi
+114 info trying registry request attempt 1 at 16:03:54
+115 http GET https://registry.npmjs.org/ethereumjs-abi
+116 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+117 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+118 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+119 info trying registry request attempt 2 at 16:04:00
+120 http GET https://registry.npmjs.org/request
+121 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+122 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+123 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+124 info trying registry request attempt 2 at 16:04:04
+125 http GET https://registry.npmjs.org/socket.io
+126 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+127 info trying registry request attempt 2 at 16:04:07
+128 http GET https://registry.npmjs.org/web3-utils
+129 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+130 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+131 info trying registry request attempt 2 at 16:04:09
+132 http GET https://registry.npmjs.org/ethereumjs-util
+133 info trying registry request attempt 2 at 16:04:10
+134 http GET https://registry.npmjs.org/tronweb
+135 info trying registry request attempt 2 at 16:04:10
+136 http GET https://registry.npmjs.org/web3
+137 info trying registry request attempt 2 at 16:04:11
+138 http GET https://registry.npmjs.org/ethereumjs-abi
+139 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+140 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+141 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+142 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+143 info trying registry request attempt 3 at 16:05:06
+144 http GET https://registry.npmjs.org/request
+145 info trying registry request attempt 3 at 16:05:07
+146 http GET https://registry.npmjs.org/socket.io
+147 silly lockFile f9a4fdd4-request-2-88-0 request@^2.88.0
+148 silly lockFile f9a4fdd4-request-2-88-0 request@^2.88.0
+149 error Error: CERT_UNTRUSTED
+149 error     at SecurePair.<anonymous> (tls.js:1370:32)
+149 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+149 error     at SecurePair.maybeInitFinished (tls.js:982:10)
+149 error     at CleartextStream.read [as _read] (tls.js:469:13)
+149 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+149 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+149 error     at doWrite (_stream_writable.js:223:10)
+149 error     at writeOrBuffer (_stream_writable.js:213:5)
+149 error     at EncryptedStream.Writable.write (_stream_writable.js:180:11)
+149 error     at write (_stream_readable.js:583:24)
+150 error If you need help, you may report this log at:
+150 error     <http://github.com/isaacs/npm/issues>
+150 error or email it to:
+150 error     <npm-@googlegroups.com>
+151 error System Linux 4.4.0-142-generic
+152 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+153 error cwd /home/success/bot
+154 error node -v v0.10.25
+155 error npm -v 1.3.10
+156 verbose exit [ 1, true ]

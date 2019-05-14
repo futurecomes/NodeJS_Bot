@@ -1,0 +1,22 @@
+{
+    "testmode": false,
+    "contract": {
+        "address": "0xf4f41D98a8d7a079d1508833d2177Fa405380D95"
+    },
+    "network": 0,
+    "url": "https://etherman.app",
+    "stakeValues": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 0.75, 1, 2,5,10,50],
+    "appConfigs": {
+        "appName": "Etherman",
+        "appDomain": "etherman.app",
+        "unit": "ETH",
+        "unitFull": "Ether",
+        "networkName": "Ethereum",
+        "affExp": "0x3234cafe33234342343423...",
+        "affExpShort": "0x3234cafe33"
+    },
+    "chatConfig": {
+      "publishKey":"pub-c-7c728bd8-1a14-4e0d-b81c-e538c8bb5df3",
+      "subscribeKey":"sub-c-652616d2-3584-11e9-b867-06ecdb8e5f67"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "testmode": false,
+    "localhost": true,
+    "url": "http://localhost:81",
+    "db": "waykiman",
+    "contract": {
+        "address": "0x11d3D775078ab258cB54bBe3A5D84867808e5C5F",
+        "etherAPI": "https://api-ropsten.etherscan.io/api",
+        "owner": {
+            "address": "0x5aeda56215b167893e80b4fe645ba6d5bab767de",
+            "pKey": "0x8d5366123cb560bb606379f90a0bfd4769eecc0557f1b362dcae9012b548b1e5"
+        }
+    },
+    "unit": "WICC",
+    "stakeValues": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 0.75, 1, 2,5,10,50]
+}

@@ -1,0 +1,22 @@
+{
+    "testmode": false,
+    "contract": {
+        "address": "0x0"
+    },
+    "network": 1,
+    "url": "http://localhost:83",
+    "stakeValues": [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048],
+    "appConfigs": {
+        "appName": "Bitcoin bomber",
+        "appDomain": "bitcoinbomber.app",
+        "unit": "Bts",
+        "unitFull": "Bits",
+        "networkName": "Lightning",
+        "affExp": "0x3234cafe33234342343423...",
+        "affExpShort": "0x3234cafe33"
+    },
+    "chatConfig": {
+      "publishKey":"pub-c-55667c73-5a49-41a4-a70d-2e2a768fc4ce",
+      "subscribeKey":"sub-c-2d7ddbd4-39cb-11e9-bbfc-8200a0d642df"
+    }
+}

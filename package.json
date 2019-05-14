@@ -1,0 +1,26 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.6",
+    "ethereumjs-util": "^6.0.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "tronweb": "^2.1.31",
+    "web3": "^1.0.0-beta.48",
+    "web3-utils": "^1.0.0-beta.46"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://a2steve@bitbucket.org/a2steve/bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/a2steve/bot#readme"
+}

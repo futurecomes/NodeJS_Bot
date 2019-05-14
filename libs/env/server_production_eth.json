@@ -1,0 +1,16 @@
+{
+    "testmode": false,
+    "localhost": false,
+    "url": "https://etherman.app",
+    "db": "etherman",
+    "contract": {
+        "address": "0xf4f41D98a8d7a079d1508833d2177Fa405380D95",
+        "etherAPI": "https://api.etherscan.io/api",
+        "owner": {
+            "address": "0x1c797356d91563699E7d7599cc1e0E2EFA186E92",
+            "pKey": "0x8161F173B4ED73CB1F3462B2E34E8E27BF07F9628185B85B20E4BB411788A1B5"
+        }
+    },
+    "unit": "ETH",
+    "stakeValues": [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 0.75, 1, 2,5,10,50]
+}
