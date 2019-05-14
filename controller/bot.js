@@ -65,7 +65,7 @@ module.exports = {
         if (this.canUseBomb > 0) this.canUseBomb--;
         if (this.isInvincible > 0) this.isInvincible--;
         if (this.canWalkThroughWalls > 0) this.canWalkThroughWalls--;
-        if (this.isTeleport > 0){
+        if (this.isTeleport > 0) {
             this.isTeleport--;
             if(this.isTeleport == 0){
                 this.position = { x: this.map.opponent.x, y:this.map.opponent.y, }
